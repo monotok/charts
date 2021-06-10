@@ -1,111 +1,17 @@
 apiVersion: v1
 entries:
-  jupyterlab:
-  - apiVersion: v2
-    appVersion: 6.3.0
-    created: "2021-05-10T21:14:08.88555503Z"
-    description: A jupyterlab notebook on Kubernetes.
-    digest: 72726547fd71622443ae0b3c8cfbe71f1bae72e811044bede501794d035ec2f2
-    keywords:
-    - kubernetes
-    - jupyterlab
-    - jupyter
-    - datascience
-    - python
-    maintainers:
-    - name: ohdearaugustin
-      url: https://github.com/ohdearaugustin
-    name: jupyterlab
-    urls:
-    - https://github.com/ohdearaugustin/charts/releases/download/jupyterlab-0.0.1/jupyterlab-0.0.1.tgz
-    version: 0.0.1
-  oauth2-proxy:
-  - apiVersion: v1
-    appVersion: 7.1.2
-    created: "2021-05-06T18:42:53.744357768Z"
-    description: A reverse proxy that provides authentication with Google, Github
-      or other providers
-    digest: ea250f1ecf619bd16e1f3c01bba8bd254de912135731d3bea11ad098cd01d320
-    home: https://pusher.github.io/oauth2_proxy/
-    keywords:
-    - kubernetes
-    - oauth
-    - oauth2
-    - authentication
-    - google
-    - github
-    kubeVersion: '>=1.9.0-0'
-    maintainers:
-    - name: ohdearaugustin
-      url: https://github.com/ohdearaugustin
-    name: oauth2-proxy
-    sources:
-    - https://github.com/pusher/oauth2_proxy
-    urls:
-    - https://github.com/ohdearaugustin/charts/releases/download/oauth2-proxy-4.0.0/oauth2-proxy-4.0.0.tgz
-    version: 4.0.0
-  - apiVersion: v1
-    appVersion: 6.1.1
-    created: "2020-12-26T18:12:57.74879804Z"
-    description: A reverse proxy that provides authentication with Google, Github
-      or other providers
-    digest: 9eb86b5ef0f7619c18fa88b01937bc97676c023d3400a9e44cec89b4c506f0e1
-    home: https://pusher.github.io/oauth2_proxy/
-    keywords:
-    - kubernetes
-    - oauth
-    - oauth2
-    - authentication
-    - google
-    - github
-    kubeVersion: '>=1.9.0-0'
-    maintainers:
-    - name: ohdearaugustin
-      url: https://github.com/ohdearaugustin
-    name: oauth2-proxy
-    sources:
-    - https://github.com/pusher/oauth2_proxy
-    urls:
-    - https://github.com/ohdearaugustin/charts/releases/download/oauth2-proxy-3.2.6/oauth2-proxy-3.2.6.tgz
-    version: 3.2.6
   trilium-notes:
   - apiVersion: v2
-    appVersion: 0.47.2
-    created: "2021-05-10T21:56:54.211020583Z"
+    appVersion: 0.47.4
+    created: "2021-06-10T14:53:32.681158137Z"
     description: A Helm chart for trillium notes.
-    digest: 14a09f7a8ba48331719ff5593661f810bb6857573368d20ec8cabfbc493e1cf5
+    digest: 8f37e0f6240b5350d5a27a186212dfa6547340bd2585c6631d2e3aaf96470d4d
     maintainers:
     - name: ohdearaugustin
       url: https://github.com/ohdearaugustin
     name: trilium-notes
     type: application
     urls:
-    - https://github.com/ohdearaugustin/charts/releases/download/trilium-notes-0.1.2/trilium-notes-0.1.2.tgz
-    version: 0.1.2
-  - apiVersion: v2
-    appVersion: 0.45.5
-    created: "2020-11-21T18:49:00.474621415Z"
-    description: A Helm chart for trillium notes.
-    digest: 10786f1494df9969dc0664273ae675129c8dc6263e4f78729854383eeb5a1ab0
-    maintainers:
-    - name: ohdearaugustin
-      url: https://github.com/ohdearaugustin
-    name: trilium-notes
-    type: application
-    urls:
-    - https://github.com/ohdearaugustin/charts/releases/download/trilium-notes-0.1.1/trilium-notes-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 0.45.4
-    created: "2020-11-19T19:35:21.738564121Z"
-    description: A Helm chart for trillium notes.
-    digest: f65ead769ce69b14bf23b6dd821d3ab50e5ba183c7a360ad8e41efe1bc052da5
-    maintainers:
-    - name: ohdearaugustin
-      url: https://github.com/ohdearaugustin
-    name: trilium-notes
-    type: application
-    urls:
-    - https://github.com/ohdearaugustin/charts/releases/download/trilium-notes-0.1.0/trilium-notes-0.1.0.tgz
-    version: 0.1.0
-generated: "2020-11-19T19:35:21.627874453Z"
+    - https://github.com/monotok/charts/releases/download/trilium-notes-0.1.3/trilium-notes-0.1.3.tgz
+    version: 0.1.3
+generated: "2021-06-10T14:53:32.452844927Z"
