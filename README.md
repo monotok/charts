@@ -1,7 +1,7 @@
 Helm Charts
 ===========
 
-This repository (will) contain(s) several different helm charts.
+This repository is a fork from ohdearaugustin but only contains the trilium notes chart
 
 - trilium-notes ([zadam/trilium](https://github.com/zadam/trilium))
 
@@ -12,13 +12,13 @@ This section describes the usage of this repository.
 How to add repo
 ***************
 ```
-helm repo add ohdearaugustin https://ohdearaugustin.github.io/charts/
-"ohdearaugustin" has been added to your repositories
+helm repo add monotok https://monotok.github.io/charts/
+"monotok" has been added to your repositories
 ```
 
 How to install a chart
 ***************
-Just `helm install ohdearaugustin/<chart>`.
+Just `helm install monotok/trilium-notes`.
 
 For more information on using Helm, refer to the Helm documentation.
 
